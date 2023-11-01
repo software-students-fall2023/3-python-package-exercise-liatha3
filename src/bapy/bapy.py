@@ -1,5 +1,5 @@
-def add_one(number):
-    return number + 1
+def puhoo(sooboo):
+    print(sooboo)
 
 def fooloo(n, i, operation):
     # check if operation is a lambda function
@@ -27,3 +27,4 @@ def fuh(condition, if_true, if_false):
         return if_true() if condition else if_false()
     else:
         raise ValueError("Both if_true and if_false must be callable.")
+
