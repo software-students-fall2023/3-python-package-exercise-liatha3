@@ -9,9 +9,9 @@
 
 "BaPy" is a whimsical Python package designed to make coding concepts more accessible and fun for young children and beginners. This package replaces traditional functions and built-in class names with playful and nonsensical baby words, creating an entertaining and imaginative way to introduce coding principles to very young learners.
 
-Key Feature of PeePy:
+Key Feature of BaPy:
 
-Nonsensical Naming: PeePy replaces standard Python function and class names with baby words and playful terms. For example, it might rename "print" to "puhoo" and "if" to "fuh."
+Nonsensical Naming: BaPy replaces standard Python function and class names with baby words and playful terms. For example, it might rename "print" to "puhoo" and "if" to "fuh."
 
 ## Clear Instructions and Code Examples
 
