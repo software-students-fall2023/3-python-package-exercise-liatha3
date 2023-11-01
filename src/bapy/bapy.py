@@ -28,3 +28,14 @@ def fuh(condition, if_true, if_false):
     else:
         raise ValueError("Both if_true and if_false must be callable.")
 
+
+def wuhoo(condition, operation):
+    """
+    While Loop for babies.
+    
+    :param condition: A callable that returns a Boolean result for loop continuation.
+    :param operation: A callable that represents the loop to execute.
+    """
+    
+    while condition():
+        operation()
