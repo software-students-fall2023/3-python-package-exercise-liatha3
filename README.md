@@ -7,7 +7,7 @@
 
 ## Project Description
 
-"PeePy" is a whimsical Python package designed to make coding concepts more accessible and fun for young children and beginners. This package replaces traditional functions and built-in class names with playful and nonsensical baby words, creating an entertaining and imaginative way to introduce coding principles to very young learners.
+"BaPy" is a whimsical Python package designed to make coding concepts more accessible and fun for young children and beginners. This package replaces traditional functions and built-in class names with playful and nonsensical baby words, creating an entertaining and imaginative way to introduce coding principles to very young learners.
 
 Key Feature of PeePy:
 
