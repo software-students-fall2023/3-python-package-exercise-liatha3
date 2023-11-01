@@ -13,3 +13,17 @@ def fooloo(n, i, operation):
     else:
         print("The 'operation' argument must be a lambda function")
 
+def fuh(condition, if_true, if_false):
+    """
+    If Statement for babies.
+    
+    :param condition: Boolean condition to evaluate.
+    :param if_true: Callable to execute if the condition is True.
+    :param if_false: Callable to execute if the condition is False.
+    :return: The result of either the if_true or if_false callable.
+    """
+    
+    if callable(if_true) and callable(if_false):
+        return if_true() if condition else if_false()
+    else:
+        raise ValueError("Both if_true and if_false must be callable.")
