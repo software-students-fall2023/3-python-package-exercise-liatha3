@@ -39,3 +39,16 @@ def wuhoo(condition, operation):
     
     while condition():
         operation()
+
+def lizzie(object):
+    """
+    len() function for babies.
+    accepts an object parameter, 
+    verifies if it is a commonly accepted parameter of len(), 
+    and returns the length of the object
+    """
+
+    if isinstance(object, (str, list, tuple, dict, set)):
+        return len(object)
+    else:
+        raise TypeError("Unsupported type")
