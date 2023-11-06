@@ -8,7 +8,7 @@ description = "A baby language python package"
 version = "0.0.2"
 authors = [
   { name="Harry Minksy", email="harry.minsky@gmail.com" },
-  { name="Athena Leong", email="ayl215@nyu.edu"},
+  { name="Athena Leong", email="ayl2015@nyu.edu"},
   { name="Lianna Poblete", email="lnp2016@nyu.edu"}
 ]
 license = { file = "LICENSE" }
