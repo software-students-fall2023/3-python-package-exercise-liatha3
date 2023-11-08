@@ -1,3 +1,4 @@
+![Badge](https://github.com/software-students-fall2023/3-python-package-exercise-liatha3/actions/workflows/build.yml/badge.svg)
 # babPy
 
 ## Team Members
