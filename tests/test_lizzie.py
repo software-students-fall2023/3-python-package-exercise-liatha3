@@ -1,5 +1,5 @@
 import pytest
-from  src.bapy.bapy import lizzie
+from  babpy.babpy import lizzie
 
 class Tests:
     def test_sanity_check(self):

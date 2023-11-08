@@ -1,4 +1,4 @@
-from bapy import puhoo, fooloo, fuh, wuhoo, lizzie
+from babpy import puhoo, fooloo, fuh, wuhoo, lizzie
 
 def main():
     # PRINT

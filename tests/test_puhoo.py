@@ -1,5 +1,5 @@
 import pytest
-from  src.bapy.bapy import puhoo
+from  babpy.babpy import puhoo
 
 
 def test_puhoo_string(capsys):

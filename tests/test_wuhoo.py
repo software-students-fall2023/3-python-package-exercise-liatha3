@@ -1,5 +1,5 @@
 import pytest
-from src.bapy.bapy import wuhoo
+from babpy.babpy import wuhoo
 
 class Tests:
      
@@ -7,7 +7,7 @@ class Tests:
         expected = True
         actual = True
         assert actual == expected, "Expected True to be equal to True"
-        
+
     def test_simple_counter_condition(self):
         counter = [5]
         def condition():
