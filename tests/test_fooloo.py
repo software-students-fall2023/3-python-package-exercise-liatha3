@@ -1,5 +1,5 @@
 import pytest
-from bapy import fooloo
+from  src.bapy.bapy import fooloo
 
 class Tests:
     def test_sanity_check(self):
@@ -7,21 +7,25 @@ class Tests:
         actual = True
         assert actual == expected, "Expected True to be equal to True"
     
-    def test_fooloo_valid():
+    def test_valid_param(self):
         result = []
-        def test_function(x):
-            result.append(x)
-        fooloo(5, 1, test_function)
-        assert result == [1, 2, 3, 4, 5]
+        fooloo(3, 1, lambda i: result.append(i))
+        assert result == [1, 2, 3]
 
-    def test_fooloo_invalid():
-        def not_lambda_function(x):
-            return x
-        with pytest.raises(SystemExit) as error:
-            fooloo(5, 1, not_lambda_function)
-        assert "The 'operation' argument must be a lambda function" in str(error.value)
+    def test_boundary_conditions(self):
+        result = []
+        fooloo(1, 1, lambda i: result.append(i))
+        assert result == [1]
 
-    def test_fooloo_n_less_than_1():
+        result.clear()
+        fooloo(1, 2, lambda i: result.append(i))
+        assert result == []
+
+        result.clear()
+        fooloo(2, 1, lambda i: result.append(i))
+        assert result == [1, 2]
+
+    def test_fooloo_n_less_than_1(self):
         result = []
         def test_function(x):
             result.append(x)

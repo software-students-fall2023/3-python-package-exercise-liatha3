@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "baPy"
 description = "A baby language python package"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
   { name="Harry Minksy", email="harry.minsky@gmail.com" },
   { name="Athena Leong", email="ayl2015@nyu.edu"},

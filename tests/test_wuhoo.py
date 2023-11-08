@@ -1,5 +1,5 @@
 import pytest
-from bapy import wuhoo
+from src.bapy.bapy import wuhoo
 
 class Tests:
      
@@ -7,7 +7,8 @@ class Tests:
         expected = True
         actual = True
         assert actual == expected, "Expected True to be equal to True"
-    def test_simple_counter_condition():
+        
+    def test_simple_counter_condition(self):
         counter = [5]
         def condition():
             return counter[0] > 0
@@ -16,7 +17,7 @@ class Tests:
         wuhoo(condition, operation)
         assert counter[0] == 0
 
-    def test_complex_condition():
+    def test_complex_condition(self):
         data = {"value": 10}
         def condition():
             return data["value"] < 15
@@ -25,7 +26,7 @@ class Tests:
         wuhoo(condition, operation)
         assert data["value"] == 15
 
-    def test_no_iteration():
+    def test_no_iteration(self):
         condition_called = [False]
         def condition():
             condition_called[0] = True
