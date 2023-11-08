@@ -1,5 +1,5 @@
 import pytest
-from  babpy.babpy import fuh
+from  babpy.talk import fuh
 
 class Tests:
     def test_sanity_check(self):

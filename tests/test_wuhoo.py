@@ -1,5 +1,5 @@
 import pytest
-from babpy.babpy import wuhoo
+from babpy.talk import wuhoo
 
 class Tests:
      

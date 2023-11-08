@@ -13,11 +13,13 @@ Key Feature of babPy:
 
 Nonsensical Naming: babPy replaces standard Python function and class names with baby words and playful terms. For example, it might rename "print" to "puhoo" and "if" to "fuh."
 
-## INSTALL US TODAY WITH PIP INSTALL BABPY
+
+
+## INSTALL US TODAY WITH pip install babpy
 
 ## Instructions
 
-- Using babPy is as easy as 1 2 3 4 5 6 7 8. Take, for example, the function 'fuh'
+- Using babPy is as easy as 1 2 3 4 5 6 7 8. All of babpy's current functionality is contained in the babpy.talk file. Take, for example, the function 'fuh'
   ```python
   def fuh(condition, if_true, if_false):
     """
@@ -36,18 +38,24 @@ Nonsensical Naming: babPy replaces standard Python function and class names with
 
   ```
 
-which can be used in tandem with another function, puhoo
+which can be imported and used in tandem with another function, puhoo, like so
 ```python
-from babpy import fuh,puhoo
+from babpy.talk import fuh,puhoo
 
     fuh(1 == 2, puhoo("yay"), puhoo("boo"))
 
 ```
-which will print boo, as 1 does not equal 2.
-
+which will puhoo(print) boo, as 1 does not equal 2.
 
 
 ## Testing and Further Development
 if you want to work on/add to babpy, just download this respository. Dependencies can be installed via pipenv and we would welcome more contributions to our special vocublary.
+
+## How to run unit tests
+Simple example unit tests are included within the tests directory. To run these tests:
+
+ 1. Install pytest in a virtual environment.
+1. Run the tests from the main project directory: python3 -m pytest.
+2. Tests should never fail. Any failed tests indicate that the production code is behaving differently from the behavior the tests expect.
 
 ### [pyPi LINK](https://pypi.org/project/babPy/0.0.3/)
