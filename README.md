@@ -43,7 +43,13 @@ which can be imported and used in tandem with another function, puhoo, like so
 ```python
 from babpy.talk import fuh,puhoo
 
-    fuh(1 == 2, puhoo("yay"), puhoo("boo"))
+def too():
+    puhoo("yay")
+
+def foo():
+    puhoo("foo")
+
+fuh(1 == 2, too, foo)
 
 ```
 which will puhoo(print) boo, as 1 does not equal 2.
